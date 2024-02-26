@@ -14,13 +14,12 @@ public class CtoF {
                 double tempFahren = tempCelsius * 1.8 + 32; //converts Celsius into Fahrenheit
                 System.out.print("Your temperature converted to Fahrenheit is " + tempFahren);
                 done = true;
-            } else
-            {
+            } else {
                 trash = in.nextLine();
                 System.out.println("You must enter a valid temperature, not: " + trash);
             }
         }
-        while(!done);
+        while (!done);
     }
 }
 
